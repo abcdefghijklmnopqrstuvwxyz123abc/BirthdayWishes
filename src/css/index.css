@@ -693,6 +693,26 @@ body, html{
 	animation-delay: 4200ms;
 }
 
+.third--canvas .center--line h1 > span:nth-child(14){
+	animation-delay: 4300ms;
+}
+
+.third--canvas .center--line h1 > span:nth-child(15){
+	animation-delay: 4400ms;
+}
+
+.third--canvas .center--line h1 > span:nth-child(16){
+	animation-delay: 4500ms;
+}
+
+.third--canvas .center--line h1 > span:nth-child(17){
+	animation-delay: 4600ms;
+}
+
+
+
+
+
 .third--canvas > img{
 	position: absolute;
 	width:auto;
@@ -765,3 +785,61 @@ body, html{
 		height:200px;
 	}
 }
+
+.third--canvas > img#top-left-image {
+    position: absolute;
+    width: 45%;
+    height: 50%;
+    top: 0;
+    left: 1em;
+    transform: scale(0);
+    animation: giftIcon 500ms ease 4300ms 1 forwards;
+}
+.third--canvas > img#top-middle-image {
+    position: absolute;
+    width: 30%;
+    height: 50%;
+    top: 0;
+    left: 40%;
+    transform: translateX(-50%) scale(0);
+    animation: giftIcon 500ms ease 4300ms 1 forwards;
+}
+
+.third--canvas > img#top-right-image {
+    position: absolute;
+    width: 30%;
+    height: 42%;
+    top: 0;
+    right: 1em;
+    transform: scale(0);
+    animation: giftIcon 500ms ease 4300ms 1 forwards;
+}
+.third--canvas > img#bottom-left-image {
+    position: absolute;
+    width: auto;
+    height: 45%;
+    bottom: 0;
+    left: 1em;
+    transform: scale(0);
+    animation: giftIcon 500ms ease 4300ms 1 forwards;
+}
+
+ .third--canvas > img#bottom-middle-image {
+    position: absolute;
+    width: 40%;
+    height: 45%;
+    bottom: 0;
+    left: 33%;
+    transform: translateX(-50%) scale(0);
+    animation: giftIcon 500ms ease 4300ms 1 forwards;
+}
+
+.third--canvas > img#bottom-right-image {
+    position: absolute;
+    width: 27%;
+    height: 50%;
+    bottom: 0;
+    right: 1em;
+    transform: scale(0);
+    animation: giftIcon 500ms ease 4300ms 1 forwards;
+}  
