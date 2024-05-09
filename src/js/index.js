@@ -33,3 +33,4 @@ let removeSecondCanvas = setTimeout(function(){
 	secondCanvas.setAttribute("style","display:none");
 	thirdCanvas.setAttribute("style","display:block")
 },9800)
+
